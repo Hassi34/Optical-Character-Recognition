@@ -1,0 +1,16 @@
+#name: ocr
+channels:
+  - conda-forge
+  - pip
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - fastapi
+    - pydantic
+    - uvicorn
+    - watchfiles
+    - httpx
+    - pytest
+  - tesserocr

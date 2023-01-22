@@ -1,0 +1,8 @@
+#tesserocr # try to install with conda if you run into errors
+fastapi
+pydantic
+uvicorn
+watchfiles
+#To run the unit tests
+httpx
+pytest
